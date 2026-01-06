@@ -1,29 +1,37 @@
-# Precision Agriculture – Water Management System
+-- README.md (Review 3 Submission)
 
-## Problem Statement
-Water wastage in agriculture due to fixed irrigation schedules.
+Ecoverse – Pan-India Smart Irrigation System
 
-## Solution
-A multilingual, dataset-driven irrigation decision support system
-with manual simulation for demo purposes.
+Problem Statement:
+Inefficient irrigation practices in agriculture lead to water wastage and crop stress.
+Language barriers also prevent farmers from effectively using digital decision-support tools.
 
-## Features
-- Supports multiple Indian languages
-- Crop and season-based irrigation logic
-- Manual field condition simulation
-- Scalable for ML & IoT integration
+Solution:
+A multilingual, AI-assisted smart irrigation decision support system that provides
+irrigation recommendations based on soil and environmental parameters.
 
-## Tech Stack
+Key Features:
+- Pan-India coverage with state-specific crops
+- Multilingual interface supporting Indian regional languages
+- Manual simulation of soil moisture, temperature, and humidity
+- AI-based irrigation prediction using a trained model
+- Batch upload and irrigation history tracking
+
+Tech Stack:
 - Python
 - Streamlit
-- Pandas (optional)
-- Rule-based decision logic
+- Pandas, NumPy
+- Scikit-learn (Random Forest)
 
-## How to Run
-1. Install Streamlit
-2. Run: streamlit run app.py
+How to Run:
+1. Install dependencies:
+   pip install streamlit pandas numpy scikit-learn
 
-## Future Scope
-- Integration with soil & weather sensors
-- Machine learning-based predictions
-- Automated irrigation systems
+2. Run the application:
+   streamlit run app.py
+
+Review-3 Notes:
+- This is a software prototype developed for hackathon evaluation
+- The ML model is trained on sample/synthetic data for demonstration
+- Manual simulation represents future IoT sensor inputs
+- The system architecture is scalable for real-time ML and hardware integration
