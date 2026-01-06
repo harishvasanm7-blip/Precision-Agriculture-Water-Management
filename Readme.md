@@ -1,31 +1,29 @@
 # Precision Agriculture – Water Management System
 
-## Track
-Data Science & Machine Learning (Environmental / SDGs)
-
 ## Problem Statement
-Agriculture consumes a major share of freshwater resources. Traditional irrigation practices rely on fixed schedules, leading to inefficient water usage and water wastage.
+Water wastage in agriculture due to fixed irrigation schedules.
 
-## Proposed Solution
-A data-driven irrigation recommendation system that analyses soil moisture and weather parameters to predict optimal irrigation requirements using machine learning.
+## Solution
+A multilingual, dataset-driven irrigation decision support system
+with manual simulation for demo purposes.
 
- Approach
-- Data preprocessing using pandas
-- Machine learning-based irrigation prediction
-- Streamlit-based web interface for demonstration
+## Features
+- Supports multiple Indian languages
+- Crop and season-based irrigation logic
+- Manual field condition simulation
+- Scalable for ML & IoT integration
 
- Tech Stack
+## Tech Stack
 - Python
-- Pandas, NumPy
-- Scikit-learn
 - Streamlit
+- Pandas (optional)
+- Rule-based decision logic
 
-## Current Status
-- GitHub repository created
-- Basic Streamlit interface implemented
-- Dataset identified
-- ML model pipeline under development
+## How to Run
+1. Install Streamlit
+2. Run: streamlit run app.py
 
 ## Future Scope
-- Integration with real-time IoT sensors
-- Mobile application for farmers
+- Integration with soil & weather sensors
+- Machine learning-based predictions
+- Automated irrigation systems
